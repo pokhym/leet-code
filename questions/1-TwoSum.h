@@ -15,34 +15,24 @@
 
 
 #include <vector>
+#include <iostream>
+using namespace std;
 
 class _1TwoSum {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        //assuming we have an unordered vector we have to try every possible value
-        //therefore we must use a double for loop to check
-
-        int size=nums.size(); //get size of vector
-        int first=0;
-        int second=0;
-        for(first=0; first<size; first++){
-            //second for loop will iterate through values after first so we dont double check
-            if( (first+1)!=(size-1)) { // make sure in range
-                for (second=(first+1); second<size; second++){
-                    if(nums[first]+nums[second]==target) //check sum if valid exit loop
-                        break;
+        int size=nums.size();
+        int first=0, second=0;
+        for(first=0; first<size-1; first++){
+                for(second=(first+1); second<size; second++){
+                    if(nums[first]+nums[second]==target){
+                        vector<int> solution;
+                        solution.push_back(first); solution.push_back(second);
+                        return solution;
+                    }
                 }
-            }
-            if(nums[first]+nums[second]==target) //check sum if valid exit loop
-                break;
         }
-        //create new vector
-        vector<int> solution;
-        solution.push_back(nums[first]);
-        solution.push_back(nums[second]);
-
-        //return solution
-        return solution;
+        return vector<int>();
     }
 };
 #endif //LEET_CODE_1_TWOSUM_H
