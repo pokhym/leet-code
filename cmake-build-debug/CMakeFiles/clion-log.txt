@@ -1,0 +1,4 @@
+/home/pokhym/soft/clion-2016.3.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/pokhym/ClionProjects/leet-code
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pokhym/ClionProjects/leet-code/cmake-build-debug
