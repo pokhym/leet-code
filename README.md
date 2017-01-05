@@ -1,2 +1,2 @@
 # leet-code
-leet-code solutions
+leet-code solutions. written in C++.
