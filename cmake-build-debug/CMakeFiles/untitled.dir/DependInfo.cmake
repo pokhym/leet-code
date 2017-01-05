@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pokhym/ClionProjects/leet-code/main.cpp" "/home/pokhym/ClionProjects/leet-code/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
+  "/home/pokhym/ClionProjects/leet-code/questions/1-TwoSum.cpp" "/home/pokhym/ClionProjects/leet-code/cmake-build-debug/CMakeFiles/untitled.dir/questions/1-TwoSum.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

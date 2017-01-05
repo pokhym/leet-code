@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pokhym/ClionProjects/leet-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="untitled">
-				<Option output="/home/pokhym/ClionProjects/leet-code/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+			<Target title="leet-code">
+				<Option output="/home/pokhym/ClionProjects/leet-code/cmake-build-debug/leet-code" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/pokhym/ClionProjects/leet-code/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -54,14 +54,14 @@
 					<Add directory="/usr/include/c++/4.9/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/pokhym/ClionProjects/leet-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pokhym/ClionProjects/leet-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 leet-code"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pokhym/ClionProjects/leet-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/pokhym/ClionProjects/leet-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pokhym/ClionProjects/leet-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="untitled/fast">
-				<Option output="/home/pokhym/ClionProjects/leet-code/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+			<Target title="leet-code/fast">
+				<Option output="/home/pokhym/ClionProjects/leet-code/cmake-build-debug/leet-code" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/pokhym/ClionProjects/leet-code/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -77,7 +77,7 @@
 					<Add directory="/usr/include/c++/4.9/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/pokhym/ClionProjects/leet-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pokhym/ClionProjects/leet-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 leet-code/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pokhym/ClionProjects/leet-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/pokhym/ClionProjects/leet-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pokhym/ClionProjects/leet-code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -85,7 +85,10 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/pokhym/ClionProjects/leet-code/main.cpp">
-			<Option target="untitled"/>
+			<Option target="leet-code"/>
+		</Unit>
+		<Unit filename="/home/pokhym/ClionProjects/leet-code/questions/1-TwoSum.h">
+			<Option target="leet-code"/>
 		</Unit>
 		<Unit filename="/home/pokhym/ClionProjects/leet-code/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

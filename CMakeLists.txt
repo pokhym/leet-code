@@ -3,5 +3,8 @@ project(leet-code)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp main.cpp)
-add_executable(untitled ${SOURCE_FILES})
+set(SOURCE_FILES main.cpp questions/1-TwoSum.h)
+
+add_definitions(-D_1-TwoSum)
+
+add_executable(leet-code ${SOURCE_FILES})
