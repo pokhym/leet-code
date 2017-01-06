@@ -90,6 +90,9 @@
 		<Unit filename="/home/pokhym/ClionProjects/leet-code/questions/1-TwoSum.h">
 			<Option target="leet-code"/>
 		</Unit>
+		<Unit filename="/home/pokhym/ClionProjects/leet-code/questions/2-AddTwoNumbers.h">
+			<Option target="leet-code"/>
+		</Unit>
 		<Unit filename="/home/pokhym/ClionProjects/leet-code/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
